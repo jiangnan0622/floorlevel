@@ -991,3 +991,7 @@
       transition: width 0.3s ease;
   }
   
+  a {
+    text-decoration: none; /* 去掉下划线 */
+    color: inherit; /* 继承父元素的颜色，避免链接变成默认的蓝色 */
+  }
